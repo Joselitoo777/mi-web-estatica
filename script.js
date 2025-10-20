@@ -4,6 +4,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const extraInfo = document.getElementById('extraInfo');
 
     // Función para mostrar u ocultar la información adicional
+	function mostrarMensaje() {
+	  console.log("Hola buenas tardes");
+	  }
     toggleButton.addEventListener('click', function() {
         if (extraInfo.style.display === "none") {
             extraInfo.style.display = "block";
